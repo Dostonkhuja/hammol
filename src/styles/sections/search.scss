@@ -1,0 +1,32 @@
+
+.search {
+  padding: 0 50px;
+  // .search__form
+  &__form {
+    margin-top: 30px;
+    background-color: #2f2f2f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .search__input
+  &__input {
+    width: 50%;
+    background-color: #ffffff;
+    outline: none !important;
+    color: #ffffff !important;
+    &::placeholder {
+      color: #ffffff !important;
+    }
+    &:hover{
+      border: none !important;
+      outline: none!important;
+    }
+  }
+
+  // .search__button
+  &__button {
+    height: 100%;
+  }
+}
